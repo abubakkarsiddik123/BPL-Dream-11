@@ -3,7 +3,7 @@ import bannerImg from '../../../../assets/banner-main.png'
 
 const Banner = () => {
     return (
-       <div className="relative min-h-[60vh] bg-[#131313] rounded-2xl overflow-hidden">
+       <div className="relative min-h-[60vh] bg-[#131313] rounded-2xl overflow-hidden container mx-auto">
 
   {/* Top Left Glow */}
   <div className="absolute -bottom-24 -left-24 w-80 h-80 bg-blue-300 opacity-80 blur-[120px]"></div>

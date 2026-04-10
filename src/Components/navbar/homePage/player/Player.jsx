@@ -1,12 +1,14 @@
 import React, { use } from 'react';
+import AvailablePlayers from './AvailablePlayers/AvailablePlayers';
 
 const Player = ({playersPromise}) => {
-    const data = use(playersPromise)
-    console.log(data);
+    const players = use(playersPromise)
+    console.log(players);
     // console.log(playersPromise);
     return (
-        <div>
-            <p>player{data.length} </p>
+        <div className='container mx-auto'>
+            <p>player{players.length} </p>
+            <AvailablePlayers players={players}></AvailablePlayers>
         </div>
     );
 };
