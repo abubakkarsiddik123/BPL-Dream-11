@@ -15,7 +15,15 @@ const selectedPlayers = ({ selecredPlayers ,setSelecredPlayers,coin,setCoin}) =>
   return (
     <div>
      <div className="space-y-5">
-         {selecredPlayers.map((Player, ind) => {
+         { selecredPlayers.length ===0 ? 
+          
+          <div className="h-[400px] flex items-center justify-center flex-col gap-4">
+            <h2 className="font-semibold text-xl">No Player selected yet</h2>
+            <p>Go to Avilable tab to select players</p>
+          </div>
+
+
+         :selecredPlayers.map((Player, ind) => {
         return (
           <div
             key={ind}
