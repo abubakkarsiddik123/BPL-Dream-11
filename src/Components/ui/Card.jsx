@@ -19,7 +19,7 @@ const Card = ({ player, setCoin,coin,selecredPlayers,setSelecredPlayers }) => {
   return (
     <div className="card bg-base-100  shadow-sm hover:shadow-lg hover:scale-[1.02] transition">
       <figure>
-        <img src={player.playerImage} alt="Shoes" />
+        <img className="h-full" src={player.playerImage} alt="Shoes" />
       </figure>
       <div className="card-body">
         <h2 className="card-title">

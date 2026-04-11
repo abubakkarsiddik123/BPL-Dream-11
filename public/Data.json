@@ -19,7 +19,7 @@
     "batingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm offbreak",
     "price": 1400,
-    "playerImage": "https://i.ibb.co.com/DDPt1gVG/2603585-babar-azam.avif"
+    "playerImage": "https://i.ibb.co.com/gbbBJDFk/babor-1.jpg"
   },
   {
     "playerName": "Ben Stokes",
@@ -41,7 +41,7 @@
     "batingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm fast",
     "price": 1300,
-    "playerImage": "https://i.ibb.co.com/mVBR8PCg/bumrahhhh.webp"
+    "playerImage": "https://i.ibb.co.com/MyWfSwCH/Jasprit-Bumrah.avif"
   },
   {
     "playerName": "Shakib Al Hasan",
@@ -53,5 +53,82 @@
     "bowlingStyle": "Left-arm orthodox",
     "price": 1200,
     "playerImage": "https://i.ibb.co.com/Q7VRnWR8/sakib.avif"
+  },
+  {
+    "playerName": "Kane Williamson",
+    "id": 6,
+    "playerCountry": "New Zealand",
+    "playerType": "Batsman",
+    "rating": 9.1,
+    "batingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": 1450,
+    "playerImage": "https://i.ibb.co.com/wZDzy9Sy/Kane.webp"
+  },
+  {
+    "playerName": "Rohit Sharma",
+    "id": 7,
+    "playerCountry": "India",
+    "playerType": "Batsman",
+    "rating": 9.3,
+    "batingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": 1550,
+    "playerImage": "https://i.ibb.co.com/FbQksS31/rohid.jpg"
+  },
+  {
+    "playerName": "Jos Buttler",
+    "id": 8,
+    "playerCountry": "England",
+    "playerType": "Wicket Keeper",
+    "rating": 9.0,
+    "batingStyle": "Right-hand bat",
+    "bowlingStyle": "None",
+    "price": 1400,
+    "playerImage": "https://i.ibb.co.com/60GCXKj5/jos-batlar.webp"
+  },
+  {
+    "playerName": "Shaheen Afridi",
+    "id": 9,
+    "playerCountry": "Pakistan",
+    "playerType": "Bowler",
+    "rating": 9.2,
+    "batingStyle": "Right-hand bat",
+    "bowlingStyle": "Left-arm fast",
+    "price": 1350,
+    "playerImage": "https://i.ibb.co.com/B5hjXT3q/shaheen-shah-afridi-5537334.jpg"
+  },
+  {
+    "playerName": "David Warner",
+    "id": 10,
+    "playerCountry": "Australia",
+    "playerType": "Batsman",
+    "rating": 9.0,
+    "batingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm legbreak",
+    "price": 1500,
+    "playerImage": "https://i.ibb.co.com/wZH63YYD/david-warner-final-test-6413426.jpg"
+  },
+   {
+    "playerName": "Glenn Maxwell",
+    "id": 11,
+    "playerCountry": "Australia",
+    "playerType": "All-Rounder",
+    "rating": 9.1,
+    "batingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": 1480,
+    "playerImage": "https://i.ibb.co.com/SCdYmqQ/Glenn-Maxwell.jpg"
+  },
+  {
+    "playerName": "Trent Boult",
+    "id": 12,
+    "playerCountry": "New Zealand",
+    "playerType": "Bowler",
+    "rating": 9.2,
+    "batingStyle": "Left-hand bat",
+    "bowlingStyle": "Left-arm fast",
+    "price": 1320,
+    "playerImage": "https://i.ibb.co.com/sntGK3Y/Trent-Boult-bowling-action.jpg"
   }
 ]

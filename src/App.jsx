@@ -4,6 +4,7 @@ import Banner from './Components/navbar/homePage/banner/Banner'
 import Player from './Components/navbar/homePage/player/Player';
 import NavBar from './Components/navbar/NavBar'
 import { ToastContainer } from 'react-toastify';
+import Footer from './Components/footer/Footer';
 
 
 const fetchPlayer=async ()=>{
@@ -13,7 +14,7 @@ const fetchPlayer=async ()=>{
 
 
 function App() {
-    const [coin,setCoin]=useState(5000)
+    const [coin,setCoin]=useState(10000)
 const playersPromise = fetchPlayer();
 
   return (
@@ -24,7 +25,7 @@ const playersPromise = fetchPlayer();
       <Suspense fallback={<span className="loading loading-dots loading-xl"></span>}>
       <Player setCoin={setCoin} coin={coin} playersPromise={playersPromise}></Player>
       </Suspense>
-
+      <Footer></Footer>
 
 
         <ToastContainer/>
