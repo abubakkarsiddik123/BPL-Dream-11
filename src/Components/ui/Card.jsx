@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FaFlag, FaUser } from "react-icons/fa";
 
-const Card = ({ player, setCoin,coin }) => {
+const Card = ({ player, setCoin,coin,selecredPlayers,setSelecredPlayers }) => {
   const [selectedPlayers, setSelectedPlayers] = useState(false);
   const handleChoosePlayers = () => {
     let newCoin=coin-player.price;
@@ -13,6 +13,7 @@ const Card = ({ player, setCoin,coin }) => {
     }
     alert(`${player.playerName} is selected`)
     setSelectedPlayers(true)
+    setSelecredPlayers([...selecredPlayers,player])
   };
   return (
     <div className="card bg-base-100  shadow-sm hover:shadow-lg hover:scale-[1.02] transition">
